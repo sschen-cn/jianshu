@@ -103,7 +103,7 @@ React VR
     Provider,connect
 ### styled-components
     避免css全局生效造成的样式冲突
-#实战：
+# 实战：
     引入第三方库：
     1.redux，创建store做数据状态管理
     2.react-redux，根组件引入Provider使所有子组件直接使用store，子组件引入connect连接根组件，使用mapStateToProps，mapDispatchToProps对store数据读取和状态传递
